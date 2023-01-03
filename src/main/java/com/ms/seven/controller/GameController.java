@@ -2,7 +2,6 @@ package com.ms.seven.controller;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.Map;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -33,10 +32,14 @@ public class GameController {
 		return "Added success";
 	}
 	
+
+	
 	@GetMapping("/findAllGames")
 	public List<Game> getGames(){
 		return repo.findAll();
 	}
+	
+
 	
 	@GetMapping("/currentGame")
 	public JSONObject currentGames() throws IOException, ParseException {
