@@ -14,7 +14,7 @@ import com.ms.seven.model.Article;
 import com.ms.seven.repository.ArticleRepo;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://sevenswebapp-production.up.railway.app")
 public class ArticleController {
 	
 	@Autowired
