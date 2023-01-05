@@ -20,7 +20,7 @@ import com.squareup.okhttp.Request;
 import com.squareup.okhttp.Response;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://sevenswebapp-production.up.railway.app")
 public class GameController {
 	
 	@Autowired
